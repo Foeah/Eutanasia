@@ -1,0 +1,5 @@
+C:\Users\thefo\source\repos\ServerTepi22062022\ServerTepi22062022\obj\Debug\netcoreapp3.1\ServerTepi22062022.csproj.AssemblyReference.cache
+C:\Users\thefo\source\repos\ServerTepi22062022\ServerTepi22062022\obj\Debug\netcoreapp3.1\ServerTepi22062022.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thefo\source\repos\ServerTepi22062022\ServerTepi22062022\obj\Debug\netcoreapp3.1\ServerTepi22062022.AssemblyInfoInputs.cache
+C:\Users\thefo\source\repos\ServerTepi22062022\ServerTepi22062022\obj\Debug\netcoreapp3.1\ServerTepi22062022.AssemblyInfo.cs
+C:\Users\thefo\source\repos\ServerTepi22062022\ServerTepi22062022\obj\Debug\netcoreapp3.1\ServerTepi22062022.csproj.CoreCompileInputs.cache
