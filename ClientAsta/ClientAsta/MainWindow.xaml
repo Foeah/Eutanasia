@@ -1,0 +1,12 @@
+﻿<Page x:Class="ClientAsta.Pagina1" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="Pagina1">
+
+    <Grid>
+        <TextBox x:Name="txt_Budget" HorizontalAlignment="Left" Height="23" Margin="155,126,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="86"/>
+        <Label x:Name="lbl_Budget" Content="Budget:" HorizontalAlignment="Left" Margin="93,123,0,0" VerticalAlignment="Top" RenderTransformOrigin="-5.079,-0.231" Width="57"/>
+        <Button x:Name="btn_CambiaPagina" Content="Conferma" HorizontalAlignment="Left" Margin="166,231,0,0" VerticalAlignment="Top" Width="75" Click="btn_CambiaPagina_Click"/>
+    </Grid>
+</Page>
+
