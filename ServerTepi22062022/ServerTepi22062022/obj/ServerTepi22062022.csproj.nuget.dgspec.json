@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thefo\\source\\repos\\ServerTepi22062022\\ServerTepi22062022\\ServerTepi22062022.csproj": {}
+    "C:\\Users\\thefo\\Documents\\GitHub\\Eutanasia\\ServerTepi22062022\\ServerTepi22062022\\ServerTepi22062022.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thefo\\source\\repos\\ServerTepi22062022\\ServerTepi22062022\\ServerTepi22062022.csproj": {
+    "C:\\Users\\thefo\\Documents\\GitHub\\Eutanasia\\ServerTepi22062022\\ServerTepi22062022\\ServerTepi22062022.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thefo\\source\\repos\\ServerTepi22062022\\ServerTepi22062022\\ServerTepi22062022.csproj",
+        "projectUniqueName": "C:\\Users\\thefo\\Documents\\GitHub\\Eutanasia\\ServerTepi22062022\\ServerTepi22062022\\ServerTepi22062022.csproj",
         "projectName": "ServerTepi22062022",
-        "projectPath": "C:\\Users\\thefo\\source\\repos\\ServerTepi22062022\\ServerTepi22062022\\ServerTepi22062022.csproj",
+        "projectPath": "C:\\Users\\thefo\\Documents\\GitHub\\Eutanasia\\ServerTepi22062022\\ServerTepi22062022\\ServerTepi22062022.csproj",
         "packagesPath": "C:\\Users\\thefo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thefo\\source\\repos\\ServerTepi22062022\\ServerTepi22062022\\obj\\",
+        "outputPath": "C:\\Users\\thefo\\Documents\\GitHub\\Eutanasia\\ServerTepi22062022\\ServerTepi22062022\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thefo\\AppData\\Roaming\\NuGet\\NuGet.Config",
