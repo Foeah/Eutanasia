@@ -1,0 +1,8 @@
+C:\Users\Pietro\Desktop\TEP\LAB\Server_Asta_Pietro\Server_Asta_Pietro\bin\Debug\Server_Asta_Pietro.exe.config
+C:\Users\Pietro\Desktop\TEP\LAB\Server_Asta_Pietro\Server_Asta_Pietro\bin\Debug\Server_Asta_Pietro.exe
+C:\Users\Pietro\Desktop\TEP\LAB\Server_Asta_Pietro\Server_Asta_Pietro\bin\Debug\Server_Asta_Pietro.pdb
+C:\Users\Pietro\Desktop\TEP\LAB\Server_Asta_Pietro\Server_Asta_Pietro\obj\Debug\Server_Asta_Pietro.csproj.AssemblyReference.cache
+C:\Users\Pietro\Desktop\TEP\LAB\Server_Asta_Pietro\Server_Asta_Pietro\obj\Debug\Server_Asta_Pietro.csproj.SuggestedBindingRedirects.cache
+C:\Users\Pietro\Desktop\TEP\LAB\Server_Asta_Pietro\Server_Asta_Pietro\obj\Debug\Server_Asta_Pietro.csproj.CoreCompileInputs.cache
+C:\Users\Pietro\Desktop\TEP\LAB\Server_Asta_Pietro\Server_Asta_Pietro\obj\Debug\Server_Asta_Pietro.exe
+C:\Users\Pietro\Desktop\TEP\LAB\Server_Asta_Pietro\Server_Asta_Pietro\obj\Debug\Server_Asta_Pietro.pdb
