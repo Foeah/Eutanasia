@@ -10,21 +10,27 @@ namespace ServerTepi22062022
         public string Cognome { get; private set; }
         public string Tel { get; private set; }
         public string Email { get; private set; }
-        public Persona(string nome, string cognome, string telefono, string email)
+        public Persona(string n, string c, string t, string e)
         {
-            Nome = nome;
-            Cognome = cognome;
-            Tel = telefono;
-            Email = email;
+            Nome = n;
+            Cognome = c;
+            Tel = t;
+            Email = e;
         }
         public Persona() : this(string.Empty, string.Empty, string.Empty, string.Empty)
+        { }
+        public string ToStampaXML()
         {
-
+            return string.Format(
+                "<nomeProprietario>" + Nome + "</nomeOggetto>" + "\n" +
+                    "<cognomeProprietario>" + Cognome + "</cognomeOggetto>" + "\n" +
+                    "<telefonoProprietario>" + Tel + "</telefonoOggetto>" + "\n" +
+                    "<emailProprietario>" + Email + "</emailOggetto>" + "\n" 
+                );
         }
-
         public string ToStampa()
         {
-            return string.Format("Cognome: " + Cognome + ",Nome: " + Nome + ",Telefono: " + "Email: " + Email + "\n");
+            return string.Format(Cognome + "  " + Nome + "    Tel: " + Tel + "  Email: " + Email + "\n");
         }
     }
 }

@@ -8,17 +8,18 @@ namespace ServerTepi22062022
     {
         public string NomeOggetto { get; private set; }             //nome oggetto
         public string CodiceCatasto { get; private set; }           //codice univoco
+        public string Categoria { get; private set; }               //categoria(casa, sport...)
         public string Stato { get; private set; }                   //nuovo o usato
-        private double prezzoBase; //prezzo di base deciso dal proprieario
-        public double PrezzoBase
+        private double baseAsta;                                    //prezzo di base deciso dal proprieario
+        public double BaseAsta
         {
-            get { return prezzoBase; }
+            get { return baseAsta; }
             set
             {
-                if (prezzoBase > 0)
-                    prezzoBase = value;
+                if (value > 0)
+                    baseAsta = value;
                 else
-                    prezzoBase = 1;
+                    baseAsta = 1;
             }
         }
         private int anni;                                           //per sapere quanto tempo ha
@@ -51,13 +52,56 @@ namespace ServerTepi22062022
         {
             NomeOggetto = nomeogg;
             CodiceCatasto = cod;
+            Categoria = categ;
             Stato = stato;
-            PrezzoBase = prez;
+            BaseAsta = prez;
             Anni = anni;
             owner = new Persona(n, c, t, e);
         }
         public Oggetto() : this(string.Empty, string.Empty, string.Empty, string.Empty, 0, 0, string.Empty, string.Empty, string.Empty, string.Empty)
         { }
+        public string ToStampaAll()
+        {
+            return string.Format
+                ("Oggetto: " + NomeOggetto + "\n" +
+                "Codice catasto: " + CodiceCatasto + "\n" +
+                "Categoria: " + Categoria + "\n" +
+                "Stato: " + Stato + "\n" +
+                "Base d'asta: " + BaseAsta + "\n" +
+                "Anni: " + Anni + "\n" +
+                "Proprietario ---> " + owner.ToStampa() + "\n\n\n"
+                );
+        }
+        public string ToStampaItem()
+        {
+            return string.Format
+                ("Oggetto: " + NomeOggetto + "\n" +
+                "Codice catasto: " + CodiceCatasto + "\n" +
+                "Categoria: " + Categoria + "\n" +
+                "Stato: " + Stato + "\n" +
+                "Base d'asta: " + BaseAsta + "\n" +
+                "Anni: " + Anni + "\n"
+                );
+        }
+        public string ToStampaItemXML()
+        {
+            return string.Format(
+                "<nomeOggetto>" + NomeOggetto + "</nomeOggetto>" + "\n" +
+                    "<codiceOggetto>" + CodiceCatasto + "</codiceOggetto>" + "\n" +
+                    "<categoriaOggetto>" + Categoria + "</categoriaOggetto>" + "\n" +
+                    "<statoOggetto>" + Stato + "</statoOggetto>" + "\n" +
+                    "<prezzoOggetto>" + BaseAsta + "</prezzoOggetto>" + "\n" +
+                    "<anniOggetto>" + Anni + "</anniOggetto>" + "\n" 
+                );
+
+        }
+        public string ToStampaOwnerXML()
+        {
+            return string.Format(owner.ToStampaXML());
+        }
+        public string ToStampaOwner()
+        {
+            return string.Format(owner.ToStampa());
+        }
     }
-    /// <summary>
 }
