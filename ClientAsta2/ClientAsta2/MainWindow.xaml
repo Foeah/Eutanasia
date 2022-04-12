@@ -1,0 +1,18 @@
+﻿<Window x:Class="ClientAsta2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientAsta2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="468" Width="800">
+    <Grid Margin="5">
+        <Grid x:Name="Scompari" Margin="0,0,0,10">
+            <TextBox x:Name="txt_budget" HorizontalAlignment="Left" Margin="400,152,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.435,0.586"/>
+            <Label x:Name="lbl_budget" Content="Budget:" HorizontalAlignment="Left" Margin="337,147,0,0" VerticalAlignment="Top" Height="28"/>
+            <Label x:Name="Lbl_Errore" Content="" Foreground="Red"  HorizontalAlignment="Left" Margin="540,147,0,0" VerticalAlignment="Top" Width="119"/>
+            <Button x:Name="btn_conferma" Content="Conferma" HorizontalAlignment="Left" Margin="675,389,0,0" VerticalAlignment="Top" Width="82" Click="btn_conferma_Click"/>
+        </Grid>
+        <Frame x:Name="Main" NavigationUIVisibility="Hidden" Margin="0,10,0,0"></Frame>
+    </Grid>
+</Window>
